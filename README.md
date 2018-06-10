@@ -4,7 +4,7 @@ Gallery Example is a simple app showing some pics from [unsplash API] as a FlatL
 Developed as simple exercitation on [React Native].
 
 
-## Techs
+### Techs
 
 This app was developed in [React Native] on [Expo]. It also get some data from a [Firebase] database.
 
