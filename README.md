@@ -1,6 +1,6 @@
 # Galley Example
 
-Gallery Example is a simple app showing some pics from [unsplash API] as a FlatList in the home page and showing some captions from a [Firebase] DB in the other page.
+Gallery Example is a simple app showing some pics from [unsplash API] as a FlatList in the home page and showing some captions from a [Firebase] DB in the other page. You can also search pics and save them (ongoing) as bookmark.
 Developed as simple exercitation on [React Native].
 
 
@@ -14,6 +14,8 @@ The app can be tested simple opening this [link] on [Snack] or opening it in [Ex
 ## Screenshots
 ![main.png](https://user-images.githubusercontent.com/23482292/41205713-cc332c0c-6cf8-11e8-9d50-bd38e9942ef1.png)
 
+#### Todo
+Search pics on UnSplash and save them as bookmark on Firebase.
 
 ##### Contacts
 
