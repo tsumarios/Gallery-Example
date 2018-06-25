@@ -35,7 +35,7 @@ export default class Login extends Component {
 			.then((user) => {
 				this.setState({ isLoading: false });
 				console.log('User', user, 'registered!');
-				this.props.navigation.navigate('Home');
+				this.props.navigation.navigate('Search');
 			})
 			.catch((error) => {
 				this.setState({ isLoading: false, error: error.message });
