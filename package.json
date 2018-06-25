@@ -2,7 +2,7 @@
   "name": "gallery-example",
   "version": "0.0.0",
   "description": "An example of gallery app",
-  "author": "zMrDevJ",
+  "author": null,
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "dependencies": {

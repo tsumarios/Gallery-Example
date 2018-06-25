@@ -110,6 +110,11 @@ Home.navigationOptions = ({ navigation }) => {
 			backgroundColor: 'coral'
 		},
 		headerTintColor: 'white',
+		headerLeft: (
+			<TouchableOpacity onPress={() => navigation.goBack()}>
+				<Ionicons style={{ paddingHorizontal: 15 }} name="ios-arrow-back" size={26} color="white" />
+			</TouchableOpacity>
+		),
 		headerRight: (
 			<TouchableOpacity onPress={() => navigation.navigate('Other')}>
 				<Ionicons style={{ paddingHorizontal: 15 }} name="ios-arrow-forward" size={26} color="white" />

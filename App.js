@@ -1,9 +1,17 @@
 import { StackNavigator } from 'react-navigation';
+import Login from './screens/Login';
+import Search from './screens/Search';
 import Home from './screens/Home';
 import Other from './screens/Other';
 
 const App = StackNavigator(
 	{
+		Login: {
+			screen: Login
+		},
+		Search: {
+			screen: Search
+		},
 		Home: {
 			screen: Home
 		},
@@ -12,7 +20,7 @@ const App = StackNavigator(
 		}
 	},
 	{
-		initialRouteName: 'Home'
+		initialRouteName: 'Login'
 	}
 );
 
