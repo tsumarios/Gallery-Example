@@ -22,6 +22,7 @@ export default class Other extends Component {
 		list: []
 	};
 
+	// update on DB changed
 	listenForItems = (itemsRef) => {
 		itemsRef.ref('Topics').on('value', (snap) => {
 			let items = [];
