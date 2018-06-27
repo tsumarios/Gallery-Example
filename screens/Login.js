@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { View, Text, KeyboardAvoidingView, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, KeyboardAvoidingView, StyleSheet } from 'react-native';
 import { Card, Button, FormLabel, FormInput } from 'react-native-elements';
-import Ionicons from '@expo/vector-icons';
 import * as firebase from 'firebase';
 
 export default class Login extends Component {
