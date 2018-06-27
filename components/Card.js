@@ -10,7 +10,7 @@ export default class Card extends Component {
 				<View style={styles.containerText}>
 					<Text style={styles.text}> {this.props.title} </Text>
 					<TouchableOpacity onPress={this.props.onLiked} style={styles.containerIcons}>
-						{this.props.liked ? (
+						{this.props.data.liked ? (
 							<Feather name="heart" size={24} color="coral" />
 						) : (
 							<Feather name="heart" size={24} color="#a4b0be" />
