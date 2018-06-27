@@ -3,23 +3,14 @@ import { Text, View, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import { Feather } from '@expo/vector-icons';
 
 export default class Card extends Component {
-	state = {
-		liked: this.props.liked || false
-	};
-
-	_onLiked = () => {
-		this.setState({ liked: !this.state.liked });
-		this.props.onLiked();
-	};
-
 	render() {
 		return (
 			<View style={styles.container}>
 				<Image source={this.props.img} style={styles.image} />
 				<View style={styles.containerText}>
 					<Text style={styles.text}> {this.props.title} </Text>
-					<TouchableOpacity onPress={this._onLiked} style={styles.containerIcons}>
-						{this.state.liked ? (
+					<TouchableOpacity onPress={this.props.onLiked} style={styles.containerIcons}>
+						{this.props.liked ? (
 							<Feather name="heart" size={24} color="coral" />
 						) : (
 							<Feather name="heart" size={24} color="#a4b0be" />
