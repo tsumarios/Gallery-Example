@@ -11,7 +11,7 @@ export default class Search extends Component {
 	};
 
 	handleSearch = async () => {
-		let url = 'https://source.unsplash.com/' + this.state.toSearch + '/1280x720';
+		let url = `https://source.unsplash.com/${this.state.toSearch}/1280x720`;
 		this.props.navigation.navigate('Home', { url });
 	};
 
