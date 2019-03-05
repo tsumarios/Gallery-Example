@@ -22,7 +22,7 @@ Search pics on UnSplash and save them as bookmark on Firebase.
  - Emails: mraciti96@gmail.com
  - LinkedIn: linkedin.com/in/marioraciti
  - Facebook: facebook.com/MarioRacitiDev
- - Twitter: twitter.com/mraciti_dev
+ - Twitter: twitter.com/zMrDevJ
 
 
 
