@@ -19,9 +19,8 @@ Search pics on UnSplash and save them as bookmark on Firebase.
 
 ##### Contacts
 
- - Emails: mraciti96@gmail.com
+ - Emails: marioraciti@pm.me
  - LinkedIn: linkedin.com/in/marioraciti
- - Facebook: facebook.com/MarioRacitiDev
  - Twitter: twitter.com/zMrDevJ
 
 
